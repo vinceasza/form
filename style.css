@@ -2,151 +2,44 @@
   box-sizing: border-box;
 }
 
-#nav {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  float: left;
-  height: 70px;
-  z-index: 900;
-  text-align: center;
+body {
+  background-color: rgba(39, 78, 87, 0.6);
+  font-size: 16px;
 }
 
-#home {
-  background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRROAMuJKzLFT2K0prLLiqqhxEb0eryMW0zZ4cHvOIyrhcQ1er2");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: 100% 150%;
-  background-position: 50% 0;
-  height: 10000px;
+.form {
+  width: 50%;
   margin: 0 auto;
-  width: 100%;
-  max-width: 1400px;
-  min-height: 1100px;
-  position: relative;
+  background-color: #fff;
+  padding: 20px;
 }
 
-.one {
-  position: relative;
-  top: 0;
-  width: 100%;
-  padding: 5%;
+.form h2 {
   text-align: center;
 }
 
-.one h1 {
-  text-align: center;
-  font-size: 100px;
+table {
+  width: 80%;
+  margin: 40px auto;
 }
 
-.one h2 {
-  text-align: center;
+table tr td {
+  padding: 10px;
 }
 
-.one a {
-  text-decoration: none;
-  color: white;
-  background-color: tomato;
-  padding: 10px 20px;
+table tr td input {
+  padding: 5px;
 }
 
-.video-play {
-  position: absolute;
-  bottom: 0px;
-  width: 100%;
-  z-index: 900;
+table tr td .small {
+  font-size: 14px;
 }
 
-.video-play a {
-  text-align: center;
-  position: relative;
-  bottom: 100px;
-}
-
-.video-play a img {
+#submit {
+  border: none;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px;
   display: block;
-  width: 144px;
-  margin: 0 auto;
-}
-
-iframe {
-  height: 500px;
-  position: absolute;
-  bottom: 0px;
   width: 100%;
-}
-
-#about {
-  height: 900px;
-}
-
-.image {
-  width: 33%;
-  float: left;
-  background-color: tomato;
-  text-align: center;
-  padding: 50px;
-  border: 5px solid white;
-}
-
-.image img {
-  text-align: center;
-  width: 144px;
-  height: 144px;
-  display: block;
-  margin: 0 auto;
-  z-index: 1;
-}
-
-.hide {
-  opacity: 0;
-}
-
-@keyframes color {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-.showing {
-  -webkit-animation-name: color;
-  animation-name: color;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-#cow {
-  position: relative;
-  width: 100%;
-  height: 500px;
-  border: 5px solid red;
-}
-
-.cow1 {
-  height: 100px;
-  width: 100px;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.cow2 {
-  height: 100px;
-  width: 100px;
-  position: absolute;
-  top: 33%;
-  right: 0;
-}
-
-.cow3 {
-  height: 100px;
-  width: 100px;
-  position: absolute;
-  bottom: 0;
-  right: 50%;
+  color: #fff;
 }
